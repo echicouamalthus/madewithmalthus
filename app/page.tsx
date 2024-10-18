@@ -3,7 +3,10 @@ import profileDeveloper from "@/public/profile.png";
 
 export default function Home() {
   return (
-    <main className="grid md:grid-cols-2 gap-2 h-screen p-4">
+    <main
+      className="grid md:grid-cols-2 gap-2 h-screen md:p-4 p-0 md:px-0 px-4 md:my-0 my-5
+    "
+    >
       <div className="p-3 outline outline-1">
         <div className="relative md:h-full h-72">
           <Image
@@ -23,7 +26,7 @@ export default function Home() {
             <span className="">Malthus</span>
           </h3>
           <p className="md:text-7xl text-3xl w-auto md:w-[32rem]">
-          Designer of digital products with a focus on user experience
+            Designer of digital products with a focus on user experience
           </p>
         </div>
         <button className="outline outline-1 md:p-3 p-2">Mon CV</button>

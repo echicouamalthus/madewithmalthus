@@ -43,11 +43,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="h-screen md:overflow-hidden grid grid-cols-8">
-            <div className="col-span-7 md:overflow-y-auto ">
+          <div className="h-screen md:overflow-hidden grid grid-cols-9">
+            <div className="col-span-8 md:overflow-y-0.auto ">
               {children}
             </div>
-            <div className="">
+            <div className="fixed top-0 right-0">
               <SideBar />
             </div>
           </div>

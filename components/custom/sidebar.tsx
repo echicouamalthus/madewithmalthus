@@ -38,7 +38,7 @@ export default function SideBar() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="h-full flex flex-col items-center md:gap-8 py-4 md:px-2 outline outline-1 gap-4">
+    <div className="sticky top-0 outline outline-1 h-full flex flex-col items-center md:gap-8 py-4 md:px-2 gap-4 p-1.5">
       <button
         className="outline outline-1 md:p-3 p-2 rounded-full"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

@@ -11,8 +11,8 @@ export default function CustomTemplate({
   substitle,
 }: CustomTemplateProps) {
   return (
-    <main className="md:h-screen">
-      <div className="max-w-3xl mx-auto h-full flex flex-col gap-4 py-8 md:px-0 px-4">
+    <main className="md:h-screen ">
+      <div className="max-w-3xl mx-auto h-full flex flex-col gap-4 py-8 md:px-0 px-4 ">
         <Backbutton />
         <div className="grow flex flex-col gap-8">
           <div className="space-y-2">
