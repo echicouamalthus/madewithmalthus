@@ -4,10 +4,10 @@ import profileDeveloper from "@/public/profile.png";
 export default function Home() {
   return (
     <main
-      className="grid md:grid-cols-2 gap-2 h-screen md:p-4 p-0 md:px-0 px-4 md:my-0 my-5
+      className="grid md:grid-cols-2 gap-2 h-screen md:p-4 p-0 md:px-0 px-4  md:my-0 my-5
     "
     >
-      <div className="p-3 outline outline-1">
+      <div className="p-3 outline outline-1 mx-2">
         <div className="relative md:h-full h-80">
           <Image
             className="absolute w-full h-full object-cover"
@@ -19,7 +19,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="md:grid md:place-content-center md:gap-8 flex flex-col justify-between md:h-auto gap-12">
+      <div className="md:grid md:place-content-center md:gap-8 p-2 flex flex-col justify-between md:h-auto gap-12 ">
         <div className="">
           <h3>
             <span className="font-sans">Hi ! I&apos;m</span>{" "}
