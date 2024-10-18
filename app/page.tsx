@@ -8,7 +8,7 @@ export default function Home() {
     "
     >
       <div className="p-3 outline outline-1">
-        <div className="relative md:h-full h-72">
+        <div className="relative md:h-full h-80">
           <Image
             className="absolute w-full h-full object-cover"
             src={profileDeveloper}
